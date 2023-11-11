@@ -1,0 +1,66 @@
+.box1 {
+
+margin: 40px;
+width: 100px;
+height: 100px;
+
+background: pink;
+
+border-width: 10px;
+border-style: solid dotted dashed double;
+border-color: antiquewhite plum powderblue darkorchid  ;
+}
+.box2 {
+
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    
+    background: pink;
+    
+    border-width: 10px;
+    border-style: solid;
+    border-color: antiquewhite plum powderblue darkorchid  ;
+    }
+
+    .box3 {
+
+        margin: 40px;
+        width: 0;
+        height: 0;
+        
+        background: pink;
+        
+        border-width: 20px;
+        border-style: solid;
+        border-color: antiquewhite plum powderblue darkorchid  ;
+        }
+
+
+        
+    .box4 {
+
+        margin: 40px;
+        width: 0;
+        height: 0;
+        
+        background: pink;
+        
+        border-width: 20px;
+        border-style: solid;
+        border-color: rgb(235, 199, 115) rgb(192, 142, 77) rgb(170, 110, 57) rgb(140, 75, 19)  ;
+        }
+
+            
+    .box5 {
+
+        margin: 40px;
+        width: 0;
+        height: 0;
+        
+        /* background: pink; */
+        
+        border-width: 20px 20px 0px 20px;
+        border-style: solid;
+        border-color: rgb(235, 199, 115) transparent transparent transparent  ;
+        }

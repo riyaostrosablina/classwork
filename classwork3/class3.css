@@ -1,0 +1,73 @@
+ 
+.header {
+
+position: sticky;
+top: 0px;
+width: 100%;
+height: 60px;
+background-color: papayawhip;
+border-radius: 10px;
+z-index: 50;
+display: flex;
+justify-content: space-between;
+}
+
+.uno {
+    justify-content: start;
+}
+
+.dos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+}
+
+.item {
+    width: 50%;
+    /* от бади */
+    max-width: 120px; 
+    /* при растягивании страницы */
+    min-width: 80px;
+    /* при уменьшении страницы */
+    height: 110px;
+    background-color: gold;
+    border-radius: 10px;
+    margin: 10px;
+}
+   
+.absolute {
+        background-color: darkorange;
+   position:absolute;
+        /* положение относительно всей страницы, 
+        можно задать отдельное ото всех */
+        left: 420px;
+        top: 300px;
+        height: 70px;
+    }
+
+    .bigmama {
+        height: 1000px;
+        width: 100%;
+        background-color: plum;
+        border: 10px;
+        border-style: dotted;
+        border-radius: 10px;
+        border-color: darkmagenta ;
+        margin: 10px;  
+        
+    }
+
+.uno {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+padding: 0px 15px 0px 15px ;
+}
+
+.dos {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: larger;
+padding: 0px 15px 0px 15px ;
+}

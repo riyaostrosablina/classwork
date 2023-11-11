@@ -1,0 +1,30 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.container-select {
+width: 400px;
+height: 200px;
+background-color:bisque;
+border-radius: 20px;
+margin: 10px auto;
+padding: 18px;
+display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+.city-select {
+font-size: 28px;
+font-weight: 700;
+}
+
+.container-select > select {
+font-size: 23px;
+padding: 0 5px;
+height: 30px;
+border: 3px solid burlywood;
+border-radius: 3px;
+}

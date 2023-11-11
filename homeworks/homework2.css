@@ -1,0 +1,16 @@
+body {
+    font-family: 'Consolas',  sans-serif;
+    background: #fffcf7;
+    color: rgb(217, 141, 0);
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;  
+    transform: scaleX(0.5);
+  }
+  
+cite {
+  font-weight: bold;
+  font-style: normal;
+  font-size: smaller;
+  text-align: right;
+}

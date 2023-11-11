@@ -1,0 +1,122 @@
+.page {
+    background-color: gold;
+}
+
+.block {
+    width: 900px;
+    height: 500px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+ background-color: black;
+ box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.block-header {
+    background-color: rgb(34, 35, 35);
+    height: 50px;
+}
+.logo-block {
+position: absolute
+}
+.logo {
+    height: 30px;
+    width: 38px;
+    display: inline-block; 
+    margin: 10px 40px;
+}
+
+.topnav {
+    display: flex;
+    position: relative;
+    float: right;
+    
+}
+.topnav a {
+    color: #f2f2f2;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    text-decoration: underline;
+   text-underline-offset: 10px;
+    text-decoration-color: gold;
+}
+ .info { margin:  90px 0px 0px 90px ;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.greetings {
+    color: gold;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.name {
+    color: gold;
+    font-weight: bold;
+    font-size: 46px;
+    margin: 10px 0;
+}
+.work {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bottom-1 {
+height: 40px;
+width: 100px;
+border-radius: 16px;
+background-color: gold;
+display: inline-block;
+position: relative;
+margin: 0 10px;
+text-align: center;
+
+
+}
+.bottom-to-hire {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bottom-2 {
+    height: 40px;
+    width: 100px;
+    border-radius: 16px;
+    background-color: black;
+    border: #f2f2f2 1px solid;
+    display: inline-block;
+    position: absolute;
+    margin: 0 10px;
+    text-align: center;
+    
+
+
+    }
+
+ .bottom-to-works {
+        color: white;
+        text-align: center; 
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 14px 20px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+.sidebar-photo {
+    width: 300px;
+    height: 230px;
+   border-radius: 70% 30% 42% 58% / 68% 38% 62% 32% ;
+   display: flex;
+   position: relative;
+   float: right;
+   margin: -180px 60px;
+}
+

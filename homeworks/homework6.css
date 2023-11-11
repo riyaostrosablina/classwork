@@ -1,0 +1,45 @@
+.container
+ { 
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 1px solid gray;
+    margin: 20px;
+    padding: 15px 8px;
+}
+
+.first
+{
+  position: relative;
+    display: flex;
+    width: auto;
+    height: 238px;
+}
+
+.second {
+   position: absolute;
+    height: 38%;
+    width: inherit;
+}
+.p1 { 
+    font-size: 22px;
+font-weight: bold;
+font-family: sans-serif;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.p2 {
+    font-size: 13px;
+    color: rgb(81, 81, 81);
+    font-family: sans-serif;
+}
+
+.p3 {
+    font-size: 17px;
+    color: rgb(58, 58, 58);
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
