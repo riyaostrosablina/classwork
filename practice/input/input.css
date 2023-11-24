@@ -1,0 +1,45 @@
+.form {
+    padding: 20px;
+    width: 250px;
+}
+.form__header {
+text-align: center;
+}
+
+.form__title {
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form__log-in {
+    color: dodgerblue;
+    text-decoration: none;
+}
+.form__subtitle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.form__control {
+font-family: sans-serif;
+border: none;
+border-bottom: 1px solid black;
+padding: 5px;
+width: 100%;
+box-sizing: border-box;
+}
+
+.form__control:focus {
+    outline: none;
+    border-bottom-color: crimson;
+}
+
+.form__group {
+margin: 20px 0;
+}
+.button {
+    display: block;
+    width: 100%;
+    background-color: dodgerblue;
+    padding: 10px;
+    color: aliceblue;
+    border: none;
+}

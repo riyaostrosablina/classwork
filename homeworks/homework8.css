@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(255, 253, 247);
+}
+.head_navigation {
+display: flex;
+border-bottom: 1px solid gray;
+height: 50px;
+width: 690px;
+}
+.head_navigation a {
+color: gray;
+text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 18px 55px;
+font-size: 15px;
+text-decoration: none;
+}
+
+.head_navigation a:hover {
+    color: black;
+    text-decoration: underline;
+    text-underline-offset: 17px;
+    text-decoration-color: black;
+}
+
+ .logo_img  {
+ height: 50px;
+ width: 50px;
+    }
+
+.main_heading {
+display: flex;
+padding: 10px 30px;
+gap: 80px;
+}
+
+h1 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: -10px 0;
+font-weight: normal;
+text-align: center;
+
+}
+
+.full_name {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
+padding: 5px 0;
+font-size: 18px;
+}
+
+input[type="text"] {
+width: 300px;
+height: 35px;
+margin: 0 10px 0 0;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 10px 0 0;
+
+}
+
+.date_of_birth {
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
+padding: 5px 0;
+}
+    
+input[type="date"] {
+width: 625px;
+height: 38px;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 0;
+ }
+
+.email {
+ font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
+padding: 5px 0;
+}
+        
+input[type="email"] {
+width: 625px;
+height: 35px;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 0;
+}
+
+.phone {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
+padding: 5px 0;
+font-size: 18px;
+}
+            
+input[type="tel"] {
+width: 625px;
+height: 35px;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 0;
+}
+
+
+ .degree {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ margin: 10px;
+ padding: 5px 0;
+ font-size: 18px;
+ }
+                
+input.degree_imput {
+width: 625px;
+height: 35px;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 0;
+}
+
+.year_or_grade {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
+padding: 5px 0;
+font-size: 18px;
+}
+                    
+input[type="number"] {
+width: 625px;
+height: 35px;
+border: 1px solid chocolate;
+border-radius: 5px;
+padding-left: 5px;
+background-color: rgba(225, 147, 22, 0.096);
+margin: 5px 0;
+}
+
+.button {
+margin-left: 270px;
+}
+.button_self {
+padding: 15px 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 15px;
+
+}
