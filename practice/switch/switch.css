@@ -1,0 +1,80 @@
+.switch {
+width: 200px;
+}
+
+.switch_toggle {
+width: 85px;
+height: 85px;
+background-image: url(switch.content/Switch.svg);
+background-repeat: no-repeat;
+background-size: contain;
+display: inline-block;
+}
+
+.switch_label{
+background-image: url(switch.content/darksky.svg);
+background-repeat: no-repeat;
+background-size: contain;
+cursor: pointer;
+width: 100%;
+padding: 4px 6px;
+box-sizing: border-box;
+display: inline-block;
+}
+
+/*убираем галочку от чекбокса */
+.switch_input {
+    display: none;
+}
+ 
+.switch_input:checked + .switch_label {
+text-align: right;
+background-image: url(switch.content/lightsky.svg)
+}
+
+.switch_input:checked + .switch_label .switch_toggle {
+background-image: url(switch.content/Switchlight.svg);
+}
+
+.switch_2 {
+width: 200px;
+position: absolute;
+top: 150px;
+}
+    
+.switch2_toggle {
+width: 70px;
+height: 70px;
+background-image: url(switch.content/whitesw.svg);
+background-repeat: no-repeat;
+background-size: contain;
+display: inline-block;
+}
+    
+.switch2_label{
+background-image: url(switch.content/forestnight.svg);
+background-repeat: no-repeat;
+background-size: contain;
+cursor: pointer;
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+display: inline-block;
+}
+
+.switch2_input {
+display: none;
+}
+     
+.switch2_input:checked + .switch2_label {
+text-align: right;
+padding: 10px;
+background-image: url(switch.content/forestnight.svg)
+}
+    
+.switch2_input:checked + .switch2_label  {
+background-image: url(switch.content/forestlight.svg);
+}
+    
+
+   
